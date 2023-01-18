@@ -8,64 +8,86 @@
   <link rel="stylesheet" href="./style/css/default.css">
   <link rel="stylesheet" href="./style/css/utility-classes.css">
   <link rel="stylesheet" href="./style/css/nav.css">
+  <link rel="stylesheet" href="./style/css/breadcrumb.css">
   <title>Document</title>
 </head>
 
 <body>
 
-  <nav class="flex content-center content-space-around nav">
-    <img src="./assets/images/logo.svg" alt="Ocean finance logo" height="42px">
-    <div class="flex">
-      <div class="flex content-center nav__nav-item">
-        <a href="#" class="block">
-          <div class="flex content-center">
-            <h3 class="turquoise">Credit Cards</h3>
-            <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
-          </div>
-        </a>
-      </div>
-      <div class="flex content-center nav__nav-item">
-        <a href="#" class="block">
-          <div class="flex content-center">
-            <h3 class="indigo">Loans</h3>
-            <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
-          </div>
-        </a>
-      </div>
-      <div class="flex content-center nav__nav-item">
-        <a href="#" class="block">
-          <div class="flex content-center">
-            <h3 class="indigo">Credit Score</h3>
-            <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
-          </div>
-        </a>
-      </div>
-      <div class="flex content-center nav__nav-item">
-        <a href="#" class="block">
-          <div class="flex content-center">
-            <h3 class="indigo">Mortgages</h3>
-            <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
-          </div>
-        </a>
-      </div>
-      <div class="flex content-center nav__nav-item">
-        <a href="#" class="block">
-          <div class="flex content-center">
-            <h3 class="indigo">Insurance</h3>
-            <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
-          </div>
-        </a>
-      </div>
-      <div class="flex content-center nav__nav-item">
-        <a href="#" class="block">
-          <div class="flex content-center">
-            <h3 class="indigo">More</h3>
-            <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
-          </div>
-        </a>
+  <nav class="nav">
+    <div class="flex align-content-center justify-content-space-between">
+      <img src="./assets/images/logo.svg" alt="Ocean finance logo" height="42px">
+      <div class="flex">
+        <div class="flex align-content-center nav__nav-item">
+          <a href="#" class="block">
+            <div class="flex align-content-center">
+              <h4 class="turquoise">Credit Cards</h4>
+              <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
+            </div>
+          </a>
+        </div>
+        <div class="flex align-content-center nav__nav-item">
+          <a href="#" class="block">
+            <div class="flex align-content-center">
+              <h4 class="indigo">Loans</h4>
+              <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
+            </div>
+          </a>
+        </div>
+        <div class="flex align-content-center nav__nav-item">
+          <a href="#" class="block">
+            <div class="flex align-content-center">
+              <h4 class="indigo">Credit Score</h4>
+              <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
+            </div>
+          </a>
+        </div>
+        <div class="flex align-content-center nav__nav-item">
+          <a href="#" class="block">
+            <div class="flex align-content-center">
+              <h4 class="indigo">Mortgages</h4>
+              <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
+            </div>
+          </a>
+        </div>
+        <div class="flex align-content-center nav__nav-item">
+          <a href="#" class="block">
+            <div class="flex align-content-center">
+              <h4 class="indigo">Insurance</h4>
+              <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
+            </div>
+          </a>
+        </div>
+        <div class="flex align-content-center nav__nav-item">
+          <a href="#" class="block">
+            <div class="flex align-content-center">
+              <h4 class="indigo">More</h4>
+              <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </nav>
+
+  <div class="breadcrumb">
+    <div class="flex align-content-center justify-content-space-between">
+      <ol>
+        <li class="breadcrumb__item">
+          <a href="#">Home</a>
+        </li>
+        <li class="breadcrumb__item--current">
+          <a>Credit cards</a>
+        </li>
+      </ol>
+      <div class="flex align-content-center">
+        <p>Already have an Ocean Credit Card account?</p>
+        <a href="#" class="underline">Sign in</a>
+        <img src="./assets/images/person.png" alt="" class="p-l-small" height="24px">
+      </div>
+    </div>
+  </div>
+
 
 </body>
 

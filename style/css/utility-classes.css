@@ -1,6 +1,10 @@
-/* Margin */
-.m8{
-    margin: 8px;
+/* Padding */
+.p-l-small {
+    padding-left: 8px;
+}
+
+.p-r-small {
+    padding-right: 8px;
 }
 
 /* Color */
@@ -30,10 +34,15 @@
 }
 
 /* Flex */
-.content-center{
+.align-content-center {
     align-items: center;
 }
 
-.content-space-around{
-    justify-content: space-around;
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+/* Decorations */
+.underline {
+    text-decoration: underline;
 }

@@ -10,6 +10,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #e5f4fb;
+}
+
 a{
     text-decoration: none;
+}
+
+ol{
+    list-style-type: none;
 }

@@ -1,0 +1,17 @@
+.breadcrumb {
+    padding: 8px 200px;
+}
+
+.breadcrumb__item {
+    float: left;
+    font-weight: bold;
+}
+
+.breadcrumb__item--current {
+    float: left;
+}
+
+.breadcrumb__item ::after {
+    margin: 0 4px;
+    content: ">";
+}
