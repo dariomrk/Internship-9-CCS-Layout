@@ -1,0 +1,12 @@
+.nav {
+    padding: 12px 200px;
+    box-shadow: 0px 0px 12px #00000044;
+}
+
+.nav__nav-item {
+    margin-left: 24px;
+}
+
+.nav__nav-item__anchor {
+    display: block;
+}

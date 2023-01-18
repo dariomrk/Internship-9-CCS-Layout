@@ -1,0 +1,39 @@
+/* Margin */
+.m8{
+    margin: 8px;
+}
+
+/* Color */
+.turquoise {
+    color: #008fd0
+}
+
+.light-blue {
+    color: #e5f4fb;
+}
+
+.dark-green {
+    color: #578419;
+}
+
+.indigo {
+    color: #282d5c;
+}
+
+/* Display */
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Flex */
+.content-center{
+    align-items: center;
+}
+
+.content-space-around{
+    justify-content: space-around;
+}
