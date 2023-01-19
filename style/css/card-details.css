@@ -1,0 +1,9 @@
+.card-details {
+    padding: 0 400px;
+}
+
+.card-details__card {
+    padding: 16px;
+    background: white;
+    background: linear-gradient(105deg, white 69.5%, var(--turquoise) 70%);
+}
