@@ -53,16 +53,21 @@
     color: var(--turquoise);
 }
 
-.bg-turquoise {
-    background-color: var(--turquoise);
-}
-
 .light-blue {
     color: var(--light-blue);
 }
 
 .indigo {
     color: var(--indigo);
+}
+
+/* Background color */
+.bg-white {
+    background-color: white;
+}
+
+.bg-turquoise {
+    background-color: var(--turquoise);
 }
 
 .bg-indigo {
@@ -93,6 +98,10 @@
 
 .justify-content-space-around {
     justify-content: space-around;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
 }
 
 .direction-column {
