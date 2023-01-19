@@ -38,6 +38,7 @@
 
 /* Color */
 :root {
+    --gray: #eeeeee;
     --light-blue: #e5f4fb;
     --green: #5e9b00;
     --dark-green: #578419;
@@ -79,6 +80,10 @@
     display: block;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 .flex {
     display: flex;
 }
@@ -102,6 +107,10 @@
 
 .justify-content-space-evenly {
     justify-content: space-evenly;
+}
+
+.justify-content-center {
+    justify-content: center;
 }
 
 .direction-column {
