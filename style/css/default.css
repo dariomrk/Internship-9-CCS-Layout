@@ -11,13 +11,17 @@
 }
 
 body {
-    background-color: #e5f4fb;
+    background-color: var(--light-blue);
 }
 
-a{
+p {
+    font-size: 14px;
+}
+
+a {
     text-decoration: none;
 }
 
-ol{
+ol {
     list-style-type: none;
 }
