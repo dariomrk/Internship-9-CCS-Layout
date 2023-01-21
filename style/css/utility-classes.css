@@ -1,4 +1,8 @@
 /* Padding */
+.p-small {
+    padding: 8px;
+}
+
 .p-medium {
     padding: 16px;
 }

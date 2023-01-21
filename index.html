@@ -1,322 +1,518 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/css/default.css" />
+    <link rel="stylesheet" href="./style/css/utility-classes.css" />
+    <link rel="stylesheet" href="./style/css/nav.css" />
+    <link rel="stylesheet" href="./style/css/breadcrumb.css" />
+    <link rel="stylesheet" href="./style/css/hero.css" />
+    <link rel="stylesheet" href="./style/css/card.css" />
+    <link rel="stylesheet" href="./style/css/application-guide.css" />
+    <link rel="stylesheet" href="./style/css/card-details.css" />
+    <link rel="stylesheet" href="./style/css/more-info.css" />
+    <title>Credit Cards</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style/css/default.css">
-  <link rel="stylesheet" href="./style/css/utility-classes.css">
-  <link rel="stylesheet" href="./style/css/nav.css">
-  <link rel="stylesheet" href="./style/css/breadcrumb.css">
-  <link rel="stylesheet" href="./style/css/hero.css">
-  <link rel="stylesheet" href="./style/css/card.css">
-  <link rel="stylesheet" href="./style/css/application-guide.css">
-  <link rel="stylesheet" href="./style/css/card-details.css">
-  <title>Credit Cards</title>
-</head>
+  <body>
+    <nav class="nav">
+      <div class="flex align-content-center justify-content-space-between">
+        <img
+          src="./assets/images/logo.svg"
+          alt="Ocean finance logo"
+          height="42px"
+        />
+        <div class="flex">
+          <div class="flex align-content-center nav__nav-item">
+            <a href="#" class="block">
+              <div class="flex align-content-center">
+                <h4 class="turquoise">Credit Cards</h4>
+                <img
+                  src="./assets/images/chevron-down.png"
+                  alt="Drop menu icon"
+                  height="24px"
+                />
+              </div>
+            </a>
+          </div>
+          <div class="flex align-content-center nav__nav-item">
+            <a href="#" class="block">
+              <div class="flex align-content-center">
+                <h4 class="indigo">Loans</h4>
+                <img
+                  src="./assets/images/chevron-down.png"
+                  alt="Drop menu icon"
+                  height="24px"
+                />
+              </div>
+            </a>
+          </div>
+          <div class="flex align-content-center nav__nav-item">
+            <a href="#" class="block">
+              <div class="flex align-content-center">
+                <h4 class="indigo">Credit Score</h4>
+                <img
+                  src="./assets/images/chevron-down.png"
+                  alt="Drop menu icon"
+                  height="24px"
+                />
+              </div>
+            </a>
+          </div>
+          <div class="flex align-content-center nav__nav-item">
+            <a href="#" class="block">
+              <div class="flex align-content-center">
+                <h4 class="indigo">Mortgages</h4>
+                <img
+                  src="./assets/images/chevron-down.png"
+                  alt="Drop menu icon"
+                  height="24px"
+                />
+              </div>
+            </a>
+          </div>
+          <div class="flex align-content-center nav__nav-item">
+            <a href="#" class="block">
+              <div class="flex align-content-center">
+                <h4 class="indigo">Insurance</h4>
+                <img
+                  src="./assets/images/chevron-down.png"
+                  alt="Drop menu icon"
+                  height="24px"
+                />
+              </div>
+            </a>
+          </div>
+          <div class="flex align-content-center nav__nav-item">
+            <a href="#" class="block">
+              <div class="flex align-content-center">
+                <h4 class="indigo">More</h4>
+                <img
+                  src="./assets/images/chevron-down.png"
+                  alt="Drop menu icon"
+                  height="24px"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-<body>
-  <nav class="nav">
-    <div class="flex align-content-center justify-content-space-between">
-      <img src="./assets/images/logo.svg" alt="Ocean finance logo" height="42px">
-      <div class="flex">
-        <div class="flex align-content-center nav__nav-item">
-          <a href="#" class="block">
-            <div class="flex align-content-center">
-              <h4 class="turquoise">Credit Cards</h4>
-              <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
-            </div>
-          </a>
-        </div>
-        <div class="flex align-content-center nav__nav-item">
-          <a href="#" class="block">
-            <div class="flex align-content-center">
-              <h4 class="indigo">Loans</h4>
-              <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
-            </div>
-          </a>
-        </div>
-        <div class="flex align-content-center nav__nav-item">
-          <a href="#" class="block">
-            <div class="flex align-content-center">
-              <h4 class="indigo">Credit Score</h4>
-              <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
-            </div>
-          </a>
-        </div>
-        <div class="flex align-content-center nav__nav-item">
-          <a href="#" class="block">
-            <div class="flex align-content-center">
-              <h4 class="indigo">Mortgages</h4>
-              <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
-            </div>
-          </a>
-        </div>
-        <div class="flex align-content-center nav__nav-item">
-          <a href="#" class="block">
-            <div class="flex align-content-center">
-              <h4 class="indigo">Insurance</h4>
-              <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
-            </div>
-          </a>
-        </div>
-        <div class="flex align-content-center nav__nav-item">
-          <a href="#" class="block">
-            <div class="flex align-content-center">
-              <h4 class="indigo">More</h4>
-              <img src="./assets/images/chevron-down.png" alt="Drop menu icon" height="24px">
-            </div>
-          </a>
+    <div class="breadcrumb">
+      <div class="flex align-content-center justify-content-space-between">
+        <ol>
+          <li class="breadcrumb__item">
+            <a href="#">Home</a>
+          </li>
+          <li class="breadcrumb__item--current">
+            <a>Credit cards</a>
+          </li>
+        </ol>
+        <div class="flex align-content-center">
+          <p>Already have an Ocean Credit Card account?</p>
+          <a href="#" class="underline p-l-small">Sign in</a>
+          <img
+            src="./assets/images/person.png"
+            alt=""
+            class="p-l-small"
+            height="24px"
+          />
         </div>
       </div>
     </div>
-  </nav>
 
-  <div class="breadcrumb">
-    <div class="flex align-content-center justify-content-space-between">
-      <ol>
-        <li class="breadcrumb__item">
-          <a href="#">Home</a>
-        </li>
-        <li class="breadcrumb__item--current">
-          <a>Credit cards</a>
-        </li>
-      </ol>
-      <div class="flex align-content-center">
-        <p>Already have an Ocean Credit Card account?</p>
-        <a href="#" class="underline p-l-small">Sign in</a>
-        <img src="./assets/images/person.png" alt="" class="p-l-small" height="24px">
-      </div>
-    </div>
-  </div>
-
-  <div class="hero flex justify-content-space-between">
-    <div>
-      <h3 class="turquoise p-t-medium">Ocean Credit Card</h3>
-      <h1 class="indigo p-t-small">See if it's a YES before you apply</h1>
-      <div class="flex justify-content-start turquoise p-t-medium">
-        <img src="./assets/images/checkmark.png" alt="" height="24px">
-        <h4 class="hero-left__content p-l-small">From <b class="hero-left__content--emphasis">24.9% APR</b> (variable)
-        </h4>
-      </div>
-      <div class="flex justify-content-start turquoise p-t-small">
-        <img src="./assets/images/checkmark.png" alt="" height="24px">
-        <h4 class="hero-left__content p-l-small">Checking <b class="hero-left__content--emphasis">won't affect</b> your
-          credit score
-        </h4>
-      </div>
-      <div class="flex justify-content-start turquoise p-t-small">
-        <img src="./assets/images/checkmark.png" alt="" height="24px">
-        <h4 class="hero-left__content p-l-small">You may be eligible for
-          <b>0% on balance transfers and purchases</b><br>for 6 months*
-        </h4>
-      </div>
-      <p class="p-t-large">* Balance transfers will be subject to a 2.9% free</p>
-      <a href="#" class="block hero-left__button rounded-small p-t-large">
-        <h3>Check now</h3>
-      </a>
-    </div>
-    <div class="flex direction-column bg-indigo align-content-center white m-t-large p-medium rounded-medium">
-      <img src="./assets/images/credit-card.png" alt="" height="256px" class="p-large">
-      <h4>Representative example</h4>
-      <div class="flex justify-content-space-around p-t-small">
-        <div class="p-medium">
-          <p>Representative<br>
-            <b>39.9% APR</b><br>
-            (variable)
-          </p>
-        </div>
-        <div class="p-medium">
-          <p>Purchase rate<br>
-            <b>39.94% APR</b><br>
-            (variable)
-          </p>
-        </div>
-        <div class="p-medium">
-          <p>Assumed<br>
-            Credit Limit<br>
-            <b>£1,200</b>
-          </p>
-        </div>
-      </div>
-      <p class="p-medium">Intelligent Lending Ltd (credit broker), Think Park,<br>
-        M17 1FQ. Capital One is the exclusive lender.
-      </p>
-    </div>
-  </div>
-
-  <div class="cards flex justify-content-space-between">
-    <div class="cards__card flex justify-content-start bg-white align-content-center p-large rounded-small">
-      <img src="./assets/images/phone.png" alt="" height="64px">
+    <div class="hero flex justify-content-space-between">
       <div>
-        <h3 class="p-l-small indigo">Mobile App</h3>
-        <p class="p-t-small p-l-small">
-          Make payments and check your balance on the go
+        <h3 class="turquoise p-t-medium">Ocean Credit Card</h3>
+        <h1 class="indigo p-t-small">See if it's a YES before you apply</h1>
+        <div class="flex justify-content-start turquoise p-t-medium">
+          <img src="./assets/images/checkmark.png" alt="" height="24px" />
+          <h4 class="hero-left__content p-l-small">
+            From
+            <b class="hero-left__content--emphasis">24.9% APR</b> (variable)
+          </h4>
+        </div>
+        <div class="flex justify-content-start turquoise p-t-small">
+          <img src="./assets/images/checkmark.png" alt="" height="24px" />
+          <h4 class="hero-left__content p-l-small">
+            Checking
+            <b class="hero-left__content--emphasis">won't affect</b> your credit
+            score
+          </h4>
+        </div>
+        <div class="flex justify-content-start turquoise p-t-small">
+          <img src="./assets/images/checkmark.png" alt="" height="24px" />
+          <h4 class="hero-left__content p-l-small">
+            You may be eligible for <b>0% on balance transfers and purchases</b
+            ><br />for 6 months*
+          </h4>
+        </div>
+        <p class="p-t-large">
+          * Balance transfers will be subject to a 2.9% free
         </p>
-      </div>
-    </div>
-    <div class="cards__card flex justify-content-start bg-white align-content-center p-large rounded-small">
-      <img src="./assets/images/contactless.png" alt="" height="64px">
-      <div>
-        <h3 class="p-l-small indigo">Contactless</h3>
-        <p class="p-t-small p-l-small">
-          The easiest way to pay for things up to £10
-        </p>
-      </div>
-    </div>
-    <div class="cards__card flex justify-content-start bg-white align-content-center p-large rounded-small">
-      <img src="./assets/images/alert.png" alt="" height="64px">
-      <div>
-        <h3 class="p-l-small indigo">Free Alerts</h3>
-        <p class="p-t-small p-l-small">
-          Keep track of your spending with email and text alerts
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="application-guide bg-white">
-    <div class="flex">
-      <div>
-        <h1 class="turquoise">
-          We can confirm if you'll be accepted before you apply.
-        </h1>
-        <p class="p-t-medium">
-          We use QuickCheck to determine your eligibility. The best part?<br>
-          You're the only one who can see this on your credit report,<br>
-          so it <b class="indigo">doesn't affect your credit score</b> one bit.<br>
-          <br>
-          If the answer is a yes, then you can apply knowing you've got a<br>
-          higher chance of being accepted, subject to further lender fraud<br>
-          and identity checks.<br>
-          <br>
-          If the answer isn't a yes, we may be able to show you other suitable<br>
-          lending options instead.
-        </p>
-        <a href="#" class="application-guide__button block rounded-small">
+        <a href="#" class="block hero-left__button rounded-small p-t-large">
           <h3>Check now</h3>
         </a>
-        <h3 class="p-t-large indigo">How to apply</h3>
-        <div class="flex direction-column">
-          <div class="flex justify-content-start align-content-center p-t-medium">
-            <div class="application-guide__bullet">
-              <p>1</p>
-            </div>
-            <p class="block p-l-small">Complete our simple, straight forward form</p>
+      </div>
+      <div
+        class="flex direction-column bg-indigo align-content-center white m-t-large p-medium rounded-medium"
+      >
+        <img
+          src="./assets/images/credit-card.png"
+          alt=""
+          height="256px"
+          class="p-large"
+        />
+        <h4>Representative example</h4>
+        <div class="flex justify-content-space-around p-t-small">
+          <div class="p-medium">
+            <p>
+              Representative<br />
+              <b>39.9% APR</b><br />
+              (variable)
+            </p>
           </div>
-          <div class="flex justify-content-start align-content-center p-t-medium">
-            <div class="application-guide__bullet">
-              <p>2</p>
-            </div>
-            <p class="block p-l-small">QuickCheck will tell you if you'll be accepted</p>
+          <div class="p-medium">
+            <p>
+              Purchase rate<br />
+              <b>39.94% APR</b><br />
+              (variable)
+            </p>
           </div>
-          <div class="flex justify-content-start align-content-center p-t-medium">
-            <div class="application-guide__bullet">
-              <p>3</p>
-            </div>
-            <p class="block p-l-small">Apply online with confidence</p>
-          </div>
-          <div class="flex justify-content-start align-content-center p-t-medium">
-            <div class="application-guide__bullet">
-              <p>4</p>
-            </div>
-            <p class="block p-l-small">Once approved, your card will arrive in 7-10 working days</p>
+          <div class="p-medium">
+            <p>
+              Assumed<br />
+              Credit Limit<br />
+              <b>£1,200</b>
+            </p>
           </div>
         </div>
+        <p class="p-medium">
+          Intelligent Lending Ltd (credit broker), Think Park,<br />
+          M17 1FQ. Capital One is the exclusive lender.
+        </p>
       </div>
-      <img src="./assets/images/people-typing.png" alt="" height="400px" class="p-large">
     </div>
-    <hr>
-    <h1 class="turquoise">We can help you improve your credit score</h1>
-    <p class="p-t-medium">
-      You can use the Ocean card to rebuild your credit score over time, making it<br>
-      more likely to get a better rate next time you want to borrow money.
-    </p>
-    <h3 class="p-t-large indigo">How to boost your score with the Ocean card?</h3>
-    <p class="p-t-medium">
-      Make regular repayments on-time + stay under your limit = show that you're<br>
-      a responsible borrower to improve your credit score over time.<br>
-      <br>
-      But remember, not using your card responsibly could do the opposite and<br>
-      seriously harm your credit score.
-    </p>
-    <a href="#" class="application-guide__button block rounded-small">
-      <h3>Check now</h3>
-    </a>
-  </div>
 
-  <div class="flex direction-column align-content-center bg-turquoise p-t-large p-b-large">
-    <h3 class="white">See what our customers say about us</h3>
-    <p class="white">
-      Take a peek at some of our customer reviews. We've gathered these<br>
-      anonymous comments from Feefo so you can see what people are saying<br>
-      about the Ocean Credit Card.
-    </p>
-    <div class="flex align-content-center p-t-medium">
-      <a href="#">
-        <img src="./assets/images/chevron-left.png" alt="" class="chevron-rounded">
-      </a>
-      <div class="flex bg-white rounded-medium p-large m-medium">
-        <img src="./assets/images/quotation-marks.png" alt="" height="64px">
-        <div class="flex direction-column justify-content-space-between p-l-small">
-          <h4 class="indigo">"The whole process was so easy and quick."</h4>
-          <div class="flex justify-content-space-between">
-            <p>Mr Barrie</p>
-            <div class="flex align-content-center">
-              <img src="./assets/images/clock.png" alt="">
-              <p>2 weeks ago</p>
-            </div>
-          </div>
+    <div class="cards flex justify-content-space-between">
+      <div
+        class="cards__card flex justify-content-start bg-white align-content-center p-large rounded-small"
+      >
+        <img src="./assets/images/phone.png" alt="" height="64px" />
+        <div>
+          <h3 class="p-l-small indigo">Mobile App</h3>
+          <p class="p-t-small p-l-small">
+            Make payments and check your balance on the go
+          </p>
         </div>
       </div>
-      <a href="#">
-        <img src="./assets/images/chevron-right.png" alt="" class="chevron-rounded">
-      </a>
+      <div
+        class="cards__card flex justify-content-start bg-white align-content-center p-large rounded-small"
+      >
+        <img src="./assets/images/contactless.png" alt="" height="64px" />
+        <div>
+          <h3 class="p-l-small indigo">Contactless</h3>
+          <p class="p-t-small p-l-small">
+            The easiest way to pay for things up to £10
+          </p>
+        </div>
+      </div>
+      <div
+        class="cards__card flex justify-content-start bg-white align-content-center p-large rounded-small"
+      >
+        <img src="./assets/images/alert.png" alt="" height="64px" />
+        <div>
+          <h3 class="p-l-small indigo">Free Alerts</h3>
+          <p class="p-t-small p-l-small">
+            Keep track of your spending with email and text alerts
+          </p>
+        </div>
+      </div>
     </div>
-    <img src="./assets/images/feefo.png" alt="" height="52px">
-  </div>
 
-  <div class="dirty-white p-t-large p-b-large">
-    <div class="card-details">
-      <h1 class="turquoise ">Ocean Credit Card: The details</h2>
-      <div class="card-details__card bg-white rounded-medium m-t-medium">
-        <div class="flex justify-content-space-between">
+    <div class="application-guide bg-white">
+      <div class="flex">
+        <div>
+          <h1 class="turquoise">
+            We can confirm if you'll be accepted before you apply.
+          </h1>
+          <p class="p-t-medium">
+            We use QuickCheck to determine your eligibility. The best part?<br />
+            You're the only one who can see this on your credit report,<br />
+            so it <b class="indigo">doesn't affect your credit score</b> one
+            bit.<br />
+            <br />
+            If the answer is a yes, then you can apply knowing you've got a<br />
+            higher chance of being accepted, subject to further lender fraud<br />
+            and identity checks.<br />
+            <br />
+            If the answer isn't a yes, we may be able to show you other
+            suitable<br />
+            lending options instead.
+          </p>
+          <a href="#" class="application-guide__button block rounded-small">
+            <h3>Check now</h3>
+          </a>
+          <h3 class="p-t-large indigo">How to apply</h3>
           <div class="flex direction-column">
-            <div class="p-t-medium indigo">
-              <h3>If accepted, get your card within 10 working days</h3>
+            <div
+              class="flex justify-content-start align-content-center p-t-medium"
+            >
+              <div class="application-guide__bullet">
+                <p>1</p>
+              </div>
+              <p class="block p-l-small">
+                Complete our simple, straight forward form
+              </p>
             </div>
-            <div class="p-t-medium indigo">
-              <h3>From 24.9% APR (variable)</h3>
+            <div
+              class="flex justify-content-start align-content-center p-t-medium"
+            >
+              <div class="application-guide__bullet">
+                <p>2</p>
+              </div>
+              <p class="block p-l-small">
+                QuickCheck will tell you if you'll be accepted
+              </p>
             </div>
-            <div class="p-t-medium indigo">
-              <h3>You may be eligible for 0% on balance transfers and purchases for 6 months</h3>
-              <p>(balance transfers will be subject to a 2.9% fee)</p>
+            <div
+              class="flex justify-content-start align-content-center p-t-medium"
+            >
+              <div class="application-guide__bullet">
+                <p>3</p>
+              </div>
+              <p class="block p-l-small">Apply online with confidence</p>
             </div>
-            <div class="p-t-medium indigo">
-              <h3>Credit limit of £200 to £8,000</h3>
-            </div>
-            <div class="p-t-medium indigo">
-              <h3>Manage your account online - or in the app</h3>
-            </div>
-            <div class="p-t-medium indigo">
-              <h3>Add up to 3 other cardholders</h3>
-              <p>(remember that you'll be responsible for all transactions on the account)</p>
-            </div>
-            <div class="p-t-medium indigo">
-              <h3>Become eligible for limit increases if you use your card responsibly</h3>
-              <p>(remember, a bigger balance could take longer to pay back<br>
-                and increase the amount of interest you're paying)
+            <div
+              class="flex justify-content-start align-content-center p-t-medium"
+            >
+              <div class="application-guide__bullet">
+                <p>4</p>
+              </div>
+              <p class="block p-l-small">
+                Once approved, your card will arrive in 7-10 working days
               </p>
             </div>
           </div>
-          <div class="flex align-content-center">
-            <img src="./assets/images/credit-card.png" alt="" height="256px" class="m-medium">
+        </div>
+        <img
+          src="./assets/images/people-typing.png"
+          alt=""
+          height="400px"
+          class="p-large"
+        />
+      </div>
+      <hr />
+      <h1 class="turquoise">We can help you improve your credit score</h1>
+      <p class="p-t-medium">
+        You can use the Ocean card to rebuild your credit score over time,
+        making it<br />
+        more likely to get a better rate next time you want to borrow money.
+      </p>
+      <h3 class="p-t-large indigo">
+        How to boost your score with the Ocean card?
+      </h3>
+      <p class="p-t-medium">
+        Make regular repayments on-time + stay under your limit = show that
+        you're<br />
+        a responsible borrower to improve your credit score over time.<br />
+        <br />
+        But remember, not using your card responsibly could do the opposite
+        and<br />
+        seriously harm your credit score.
+      </p>
+      <a href="#" class="application-guide__button block rounded-small">
+        <h3>Check now</h3>
+      </a>
+    </div>
+
+    <div
+      class="flex direction-column align-content-center bg-turquoise p-t-large p-b-large"
+    >
+      <h3 class="white">See what our customers say about us</h3>
+      <p class="white">
+        Take a peek at some of our customer reviews. We've gathered these<br />
+        anonymous comments from Feefo so you can see what people are saying<br />
+        about the Ocean Credit Card.
+      </p>
+      <div class="flex align-content-center p-t-medium">
+        <a href="#">
+          <img
+            src="./assets/images/chevron-left.png"
+            alt=""
+            class="chevron-rounded"
+          />
+        </a>
+        <div class="flex bg-white rounded-medium p-large m-medium">
+          <img src="./assets/images/quotation-marks.png" alt="" height="64px" />
+          <div
+            class="flex direction-column justify-content-space-between p-l-small"
+          >
+            <h4 class="indigo">"The whole process was so easy and quick."</h4>
+            <div class="flex justify-content-space-between">
+              <p>Mr Barrie</p>
+              <div class="flex align-content-center">
+                <img src="./assets/images/clock.png" alt="" />
+                <p>2 weeks ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#">
+          <img
+            src="./assets/images/chevron-right.png"
+            alt=""
+            class="chevron-rounded"
+          />
+        </a>
+      </div>
+      <img src="./assets/images/feefo.png" alt="" height="52px" />
+    </div>
+
+    <div class="bg-dirty-white p-t-large p-b-large">
+      <div class="card-details">
+        <h1 class="turquoise">Ocean Credit Card: The details</h1>
+        <div class="card-details__card bg-white rounded-medium m-t-medium">
+          <div class="flex justify-content-space-between">
+            <div class="flex direction-column">
+              <div class="p-t-medium indigo">
+                <h3>If accepted, get your card within 10 working days</h3>
+              </div>
+              <div class="p-t-medium indigo">
+                <h3>From 24.9% APR (variable)</h3>
+              </div>
+              <div class="p-t-medium indigo">
+                <h3>
+                  You may be eligible for 0% on balance transfers and purchases
+                  for 6 months
+                </h3>
+                <p>(balance transfers will be subject to a 2.9% fee)</p>
+              </div>
+              <div class="p-t-medium indigo">
+                <h3>Credit limit of £200 to £8,000</h3>
+              </div>
+              <div class="p-t-medium indigo">
+                <h3>Manage your account online - or in the app</h3>
+              </div>
+              <div class="p-t-medium indigo">
+                <h3>Add up to 3 other cardholders</h3>
+                <p>
+                  (remember that you'll be responsible for all transactions on
+                  the account)
+                </p>
+              </div>
+              <div class="p-t-medium indigo">
+                <h3>
+                  Become eligible for limit increases if you use your card
+                  responsibly
+                </h3>
+                <p>
+                  (remember, a bigger balance could take longer to pay back<br />
+                  and increase the amount of interest you're paying)
+                </p>
+              </div>
+            </div>
+            <div class="flex align-content-center">
+              <img
+                src="./assets/images/credit-card.png"
+                alt=""
+                height="256px"
+                class="m-medium"
+              />
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</body>
 
+    <div class="more-info bg-white">
+      <h1 class="turquoise">More about the Ocean Credit Card</h1>
+      <p class="more-info__text p-t-small">
+        The Ocean Credit Card is issued by Capital One (Europe) and has an<br />
+        APR from <b class="indigo">24.9% APR</b> (variable) with no annual fee.
+        There's an initial<br />
+        credit limit of £200 to £8,000 and the amount offered varies by<br />
+        customer depending on their credit history and financial situation.<br />
+        Ocean Finance is a trading name of Intelligent Lending Limited.
+      </p>
+      <hr />
+      <h1 class="turquoise">More information</h1>
+      <div class="more-info__grid p-t-medium">
+        <a
+          href="#"
+          class="more-info__grid__child flex justify-content-space-between p-small indigo"
+        >
+          Understanding credit
+        </a>
+        <a
+          href="#"
+          class="more-info__grid__child flex justify-content-space-between p-small indigo"
+        >
+          Credit Card Protection & Security
+        </a>
+        <a
+          href="#"
+          class="more-info__grid__child flex justify-content-space-between p-small indigo"
+        >
+          Credit Scores
+        </a>
+        <a
+          href="#"
+          class="more-info__grid__child flex justify-content-space-between p-small indigo"
+        >
+          Acceptable use guides
+        </a>
+        <a
+          href="#"
+          class="more-info__grid__child flex justify-content-space-between p-small indigo"
+        >
+          Charges and fees guides
+        </a>
+        <a
+          href="#"
+          class="more-info__grid__child flex justify-content-space-between p-small indigo"
+        >
+          Criteria guides </a
+        ><a
+          href="#"
+          class="more-info__grid__child flex justify-content-space-between p-small indigo"
+        >
+          Employment and credit </a
+        ><a
+          href="#"
+          class="more-info__grid__child flex justify-content-space-between p-small indigo"
+        >
+          What is a balance transfer card? </a
+        ><a
+          href="#"
+          class="more-info__grid__child flex justify-content-space-between p-small indigo"
+        >
+          A guide to charge cards </a
+        ><a
+          href="#"
+          class="more-info__grid__child flex justify-content-space-between p-small indigo"
+        >
+          A guide to prepaid cards </a
+        ><a
+          href="#"
+          class="more-info__grid__child flex justify-content-space-between p-small indigo"
+        >
+          Credit cards for students </a
+        ><a
+          href="#"
+          class="more-info__grid__child flex justify-content-space-between p-small indigo"
+        >
+          Getting your first credit card </a
+        ><a
+          href="#"
+          class="more-info__grid__child flex justify-content-space-between p-small indigo"
+        >
+          A guide to credit card charges
+        </a>
+      </div>
+    </div>
+  </body>
 </html>
