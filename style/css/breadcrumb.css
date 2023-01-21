@@ -1,17 +1,17 @@
 .breadcrumb {
-    padding: 70px 300px 8px;
+  padding: 70px 300px 8px;
 }
 
 .breadcrumb__item {
-    float: left;
-    font-weight: bold;
+  float: left;
+  font-weight: bold;
 }
 
 .breadcrumb__item--current {
-    float: left;
+  float: left;
 }
 
 .breadcrumb__item ::after {
-    margin: 0 4px;
-    content: ">";
+  margin: 0 4px;
+  content: ">";
 }

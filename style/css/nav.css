@@ -1,15 +1,15 @@
 .nav {
-    position: fixed;
-    width: 100%;
-    background-color: #ffffff;
-    padding: 12px 300px;
-    box-shadow: 0px 0px 12px #00000044;
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 12px 300px;
+  box-shadow: 0px 0px 12px #00000044;
 }
 
 .nav__nav-item {
-    margin-left: 24px;
+  margin-left: 24px;
 }
 
 .nav__nav-item__anchor {
-    display: block;
+  display: block;
 }

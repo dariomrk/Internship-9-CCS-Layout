@@ -1,0 +1,12 @@
+.faq-bar {
+  padding: 0 400px;
+}
+
+.faq-bar__item {
+  font-size: 24px;
+}
+
+.faq-bar__item--active {
+  pointer-events: none;
+  border-bottom: 4px solid var(--turquoise);
+}
